@@ -6,7 +6,7 @@
 
 *"If It Doesn't Exist, Build It."*
 
-🚧 **Portfolio Website — Coming Soon**
+🚧 **Portfolio Website — [Portfolio](https://archittguptao7.github.io/ArchittGupta_Portfolio/)**
 
 [![Resume](https://img.shields.io/badge/Resume-PDF-blue?style=for-the-badge&logo=readdotcv&logoColor=white)](https://drive.google.com/file/d/1wa2Pw-JiN_pq5bH7bPdTRhzj-WakovpV/view?usp=sharing)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/archittguptao7/)
