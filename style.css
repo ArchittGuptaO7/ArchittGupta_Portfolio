@@ -1,0 +1,44 @@
+# Architt Gupta — Portfolio (Static Build)
+
+A dependency-free HTML/CSS/JS rebuild of the portfolio, ready to deploy directly on **GitHub Pages** — no build step, no `npm install`, no framework.
+
+## What's inside
+
+```
+.
+├── index.html          # All page content/markup
+├── 404.html             # GitHub Pages 404 fallback
+├── css/
+│   └── style.css        # Full design system (dark theme, glass cards, gradients)
+├── js/
+│   └── main.js           # Nav scroll state, active-section highlight, mobile menu, scroll-reveal animation
+├── assets/
+│   ├── favicon.svg
+│   └── images/
+│       ├── architt-gupta.png
+│       ├── educare-healthcare.png
+│       └── smart-attendance-console.png
+└── robots.txt
+```
+
+## Deploying to GitHub Pages
+
+1. Create a new GitHub repository (or use an existing one).
+2. Push the contents of this folder to the repo's default branch (e.g. `main`), keeping `index.html` at the repository root.
+3. In the repo settings, go to **Settings → Pages**, set **Source** to "Deploy from a branch", pick `main` and `/ (root)`.
+4. Save. Your site will be live at `https://<username>.github.io/<repo-name>/` within a minute or two.
+
+No build tooling is required — GitHub Pages serves these files as-is.
+
+## Editing content
+
+Everything (text, links, project details, certifications, etc.) lives directly in `index.html`. Search for the section you want to change (e.g. `id="projects"`) and edit the markup in place — there's no data file or templating layer.
+
+To swap an image, replace the file in `assets/images/` (keep the same filename, or update the `src` attribute in `index.html`).
+
+## Notes
+
+- Fonts load from Google Fonts (Inter) via a CDN `@import` in `css/style.css`.
+- All icons are inline SVG (no icon-font or JS icon library dependency).
+- Animations (role-cycling text, hero panel entrance, scroll-reveal cards, hover states) are done in pure CSS + a small vanilla JS file — no Framer Motion / React runtime.
+- Respects `prefers-reduced-motion`.
